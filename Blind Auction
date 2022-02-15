@@ -1,0 +1,26 @@
+from replit import clear
+
+def finding_highest_bidder():
+  maxi = 0
+  for bidder in part_dict:
+    if part_dict[bidder]>maxi:
+      maxi = part_dict[bidder]
+      winner = bidder
+  clear()
+  print(f"The winner is {winner} with the highest bid of ₹{maxi}")
+  
+part_dict={}
+def bid():
+  name = input("What's your name?: ")
+  bid_amount = int(input("What's your bid?: ₹"))
+  part_dict[name]=bid_amount
+  
+  print("Are there anymore bidders? Type yes or no")
+  yn = input().lower()
+  if yn=="yes":
+    clear()
+    bid()
+  else:
+    finding_highest_bidder()
+
+bid()
