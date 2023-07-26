@@ -1,8 +1,5 @@
-- 👋 Hi, I’m @honveGeet
-- 👀 I’m interested in Artificial Intelligence, Data Sciences and Quantum Computing.
-- 🌱 I’m currently learning Python programming.
-- 💞️ I’m looking to collaborate on Data Science projects and projects on applications of AI.
-
+follow @geetHonve 
+this one has been archived by the owner
 
 <!---
 honveGeet/honveGeet is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
